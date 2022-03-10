@@ -41,6 +41,10 @@ class Human {
             this.say(`tìm quả khác đi`);
         }
     }
+    getWeight(){
+        return console.log(`${this.name} có cân năng là ${this.weight} đơn vị`);
+    }
+
 
     say(str) {
         console.log(`${this.name} nói là ${str}`);
@@ -53,3 +57,22 @@ let firstApple = new Apple();
 let firstHuman = new Human('Adam', 'male', 70);
 
 let secondHuman = new Human('Eva', 'female', 50);
+
+
+firstHuman.getWeight()
+firstApple.getWeight()
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+firstHuman.eat(firstApple)
+secondHuman.eat(firstApple)
+firstApple.getWeight()
+firstHuman.getWeight()
+secondHuman.say(': lương đâu ? đưa đây ')
+firstHuman.say(': đưa bà hết rồi mà :"(')
